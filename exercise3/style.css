@@ -1,0 +1,77 @@
+.div1 {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 10px;
+}
+
+.div2 {
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 10px;
+}
+
+.div3 {
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 10px;
+}
+
+.div4 {
+    position: absolute;
+    top: 130px;
+    left: 160px;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 10px;
+}
+
+.div5 {
+    background-color: red;
+    position: absolute;
+    display: block;
+    top: 70px;
+    left: 100px;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    transform: rotate(45deg);
+}
+
+.div5:before {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    display: block;
+    top: 30px;
+    left: 30px;
+    border: 20px solid white;
+    border-radius: 50%;
+    transform: rotate(-45deg);
+}
+
+.div5:after {
+    content: "★";
+    font-size: 20px;
+    height: 0;
+    width: 0;
+    line-height: 0;
+    position: absolute;
+    display: block;
+    top: 56px;
+    left: 44px;
+    transform: rotate(-45deg);
+}
