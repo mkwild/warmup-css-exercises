@@ -1,0 +1,161 @@
+.interior {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 0;
+}
+
+.div1 {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 240px;
+}
+
+.div1:before {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    opacity: 75%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -120px;
+}
+
+.div1:after {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    opacity: 50%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -240px;
+}
+
+.div2 {
+    background-color: orange;
+    position: absolute;
+    top: 120px;
+    left: 240px;
+}
+
+.div2:before {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    opacity: 75%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -120px;
+}
+
+.div2:after {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    opacity: 50%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -240px;
+}
+
+.div3 {
+    background-color: yellow;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+}
+
+.div3:before {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    opacity: 75%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -120px;
+}
+
+.div3:after {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    opacity: 50%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -240px;
+}
+
+.div4 {
+    background-color: blue;
+    position: absolute;
+    top: 360px;
+    left: 240px;
+}
+
+.div4:before {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    opacity: 75%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -120px;
+}
+
+.div4:after {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    opacity: 50%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -240px;
+}
+
+.div5 {
+    background-color: orchid;
+    position: absolute;
+    top: 480px;
+    left: 240px;
+}
+
+.div5:before {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-color: orchid;
+    opacity: 75%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -120px;
+}
+
+.div5:after {
+    content: "";
+    height: 100px;
+    width: 100px;
+    background-color: orchid;
+    opacity: 50%;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -240px;
+}
