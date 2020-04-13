@@ -1,0 +1,113 @@
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.div1 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 5px solid red;
+    z-index: 0;
+    position: absolute;
+    top: 10px;
+    left: 90px;
+}
+
+.div1:before {
+    content: "";
+    height: 100px;
+    width: 100px;
+    border: 4.5px solid white;
+    position: absolute;
+    top: -4.5px;
+    left: -4.5px;
+}
+
+.div2 {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border: 5px solid orange;
+    z-index: 1;
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    transform: rotate(-20deg);
+}
+
+.div2:before {
+    content: "";
+    height: 100px;
+    width: 100px;
+    border: 4.5px solid white;
+    position: absolute;
+    top: -4.5px;
+    left: -4.5px;
+}
+
+.div3 {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 5px solid yellow;
+    z-index: 2;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    transform: rotate(-35deg);
+}
+
+.div3:before {
+    content: "";
+    height: 100px;
+    width: 100px;
+    border: 4.5px solid white;
+    position: absolute;
+    top: -4.5px;
+    left: -4.5px;
+}
+
+.div4 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 5px solid blue;
+    z-index: 3;
+    position: absolute;
+    top: 60px;
+    left: 110px;
+    transform: rotate(32deg);
+}
+
+.div4:before {
+    content: "";
+    height: 100px;
+    width: 100px;
+    border: 4.5px solid white;
+    position: absolute;
+    top: -4.5px;
+    left: -4.5px;
+}
+
+.div5 {
+    height: 100px;
+    width: 100px;
+    background-color: orchid;
+    border: 5px solid orchid;
+    z-index: 4;
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    transform: rotate(15deg);
+}
+
+.div5:before {
+    content: "";
+    height: 100px;
+    width: 100px;
+    border: 4.5px solid white;
+    position: absolute;
+    top: -4.5px;
+    left: -4.5px;
+}
